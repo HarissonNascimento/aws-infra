@@ -1,32 +1,4 @@
 <!-- BEGIN_TF_DOCS -->
-## Mirror configuration
-
-After executing
-```
-terraform apply
-```
-
- see the output variable
-```
-codecommit_ssh_key_id
-```
-and copy the value.
-
-<img src="./.github/images/codecommit-ssh-key-id-example.png">
-
-In the [ai-document-based-lambda](https://github.com/HarissonNascimento/ai-document-based-lambda) repository, go to **Settings > Secrets and variables > Actions > New repository secret**
-
-<img src="./.github/images/new-repository-secret.png">
-
-Create 2 secrets in the repository
-
-> | Key | Value |
-> |---|---|
-> | CODECOMMIT\_SSH\_PRIVATE\_KEY | privatekey.pem (RSA Private Key Content, file in this repo) |
-> | CODECOMMIT\_SSH\_PRIVATEKEY\_ID | APKXXXXXXXXXXXXXXXXX (SSH Key, copied in the previous step) |
-
----
-
 ## Requirements
 
 | Name | Version |
@@ -66,4 +38,5 @@ No inputs.
 | Name | Description |
 |------|-------------|
 | <a name="output_codecommit_ssh_key_id"></a> [codecommit\_ssh\_key\_id](#output\_codecommit\_ssh\_key\_id) | The SSH Key ID for codecommit user |
+| <a name="output_codecoomit_ssh_url"></a> [codecoomit\_ssh\_url](#output\_codecoomit\_ssh\_url) | The SSH URL from the CodeCommit repository |
 <!-- END_TF_DOCS -->
