@@ -38,5 +38,5 @@ No inputs.
 | Name | Description |
 |------|-------------|
 | <a name="output_codecommit_ssh_key_id"></a> [codecommit\_ssh\_key\_id](#output\_codecommit\_ssh\_key\_id) | The SSH Key ID for codecommit user |
-| <a name="output_codecoomit_ssh_url"></a> [codecoomit\_ssh\_url](#output\_codecoomit\_ssh\_url) | The SSH URL from the CodeCommit repository |
+| <a name="output_codecommit_ssh_url"></a> [codecommit\_ssh\_url](#output\_codecommit\_ssh\_url) | The SSH URL from the CodeCommit repository |
 <!-- END_TF_DOCS -->
