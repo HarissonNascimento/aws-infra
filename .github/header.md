@@ -1,7 +1,16 @@
-# Mirror configuration
+## Mirror configuration
 
 
-After executing ```terraform apply``` see the output variable ```codecommit_ssh_key_id``` and copy the value.
+After executing
+```
+terraform apply
+```
+
+ see the output variable
+```
+codecommit_ssh_key_id
+``` 
+and copy the value.
 
 
 <img src="./github/images/codecommit_ssh_key_id_example.png">
