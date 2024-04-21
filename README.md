@@ -12,11 +12,11 @@ codecommit_ssh_key_id
 ```
 and copy the value.
 
-<img src="./github/images/codecommit\_ssh\_key\_id\_example.png">
+<img src="./.github/images/codecommit\_ssh\_key\_id\_example.png">
 
 In the [ai-document-based-lambda](https://github.com/HarissonNascimento/ai-document-based-lambda) repository, go to **Settings > Secrets and variables > Actions > New repository secret**
 
-<img src="./github/images/new\_repository\_secret.png">
+<img src="./.github/images/new\_repository\_secret.png">
 
 Create 2 secrets in the repository
 
