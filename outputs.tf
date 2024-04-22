@@ -5,5 +5,5 @@ output "codecommit_ssh_key_id" {
 
 output "codecommit_ssh_url" {
   description = "The SSH URL from the CodeCommit repository"
-  value       = aws_codecommit_repository.ai_document_based_repository.clone_url_ssh
+  value       = aws_codecommit_repository.mirrored_aws_project_repository.clone_url_ssh
 }

@@ -1,4 +1,4 @@
-resource "aws_codecommit_repository" "ai_document_based_repository" {
-  repository_name = "ai-document-based-lambda"
+resource "aws_codecommit_repository" "mirrored_aws_project_repository" {
+  repository_name = "mirrored-aws-project"
   description     = "This is the AI Document Based Lambda Repository"
 }
