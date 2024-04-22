@@ -2,7 +2,7 @@
 
 The infrastructures in this repository are separated by <ins>branches</ins> with the prefix **infra/**
 
-- [infra/ai-document-based-lambda](https://github.com/HarissonNascimento/aws-infra/tree/infra/ai-document-based-lambda)
+- [infra/mirrored-aws-project](https://github.com/HarissonNascimento/aws-infra/tree/infra/mirrored-aws-project)
 
 ## Terraform state files
 
