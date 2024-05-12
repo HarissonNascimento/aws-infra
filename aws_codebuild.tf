@@ -1,4 +1,4 @@
-data "aws_iam_policy_document" "assume_role" {
+data "aws_iam_policy_document" "codebuild_assume_role" {
   statement {
     effect = "Allow"
 
@@ -43,7 +43,7 @@ data "aws_iam_policy_document" "codebuild_policy" {
 
 resource "aws_iam_role" "codebuild_role" {
   name               = "codebuild_role"
-  assume_role_policy = data.aws_iam_policy_document.assume_role.json
+  assume_role_policy = data.aws_iam_policy_document.codebuild_assume_role.json
 }
 
 resource "aws_iam_role_policy" "codebuild_role_policy" {
@@ -58,7 +58,7 @@ resource "aws_s3_bucket" "codebuild_artifacts_bucket" {
 }
 
 resource "aws_codebuild_project" "codebuild_lambda" {
-  name           = "codebuild_lambda"
+  name           = var.codebuild_project_name
   description    = "Build code to lambda"
   build_timeout  = 5
   queued_timeout = 5

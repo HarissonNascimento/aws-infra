@@ -1,6 +1,9 @@
 # Local .terraform directories
 **/.terraform/*
 
+# Ignore generated .zip lambda file
+**/lambda/*.zip
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
